@@ -1,0 +1,12 @@
+1 -
+What happens when you initialize a repository? Why do you need to do it?
+
+A .git folder appears, to store what changes will be made.
+A commit isn't made.
+
+
+2 - 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is more like a flagging system for what will be committed.
+It's useful because it means not everything needs to be committed. It also means you have to specifically tell git what you want to upload. It's a layer of protection from accidentally overwriting something.
