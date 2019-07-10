@@ -10,3 +10,8 @@ How is the staging area different from the working directory and the repository?
 
 The staging area is more like a flagging system for what will be committed.
 It's useful because it means not everything needs to be committed. It also means you have to specifically tell git what you want to upload. It's a layer of protection from accidentally overwriting something.
+
+3 -
+How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area makes it easy to see what has changed. You'd be able to see what files you've changed, and if we're looking for only one commit per logical change, you'd see only one file changed (unless the logical change affects multiple files!) Anyway, it's easy to see what's changed.
