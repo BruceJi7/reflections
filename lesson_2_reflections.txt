@@ -15,3 +15,9 @@ It's useful because it means not everything needs to be committed. It also means
 How can you use the staging area to make sure you have one commit per logical change?
 
 The staging area makes it easy to see what has changed. You'd be able to see what files you've changed, and if we're looking for only one commit per logical change, you'd see only one file changed (unless the logical change affects multiple files!) Anyway, it's easy to see what's changed.
+
+4 -
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches are good for trying out new features, or for developing slightly different versions of the program.
+Doing it in one branch could be possible, but if changes need to be made to the regular version, it would get complicated. Since branches can be merged, there's no issue with having separate branches and then merging them when needed.
