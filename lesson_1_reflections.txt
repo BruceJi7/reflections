@@ -1,0 +1,39 @@
+1 - 
+How did viewing a difference help spot a bug?
+
+It really cut down on how much code I needed to look at.
+On the other hand, depending on the error, the IDE/editor should point out some errors.
+
+2 - 
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It would vastly speed up the ability to pull old, working code out of an old version to drop into a new version.
+Not to mention, the fact that it would be very easy to roll back to an old version if the whole thing is FUBAR.
+
+3 -
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Manual commits mean that each commit that you make is likely to be a logical change. On the other hand, if you forget to commit, you're out of luck.
+Automatic commits save you from having to commit manually so you'll never miss one, but it might save something that isn't really a change and then looking through the history, it's confusing.
+
+
+4 -
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+It makes it so much easier to work on changes if all the files are saved together than if they're done separately. If they're done together, you can treat it like a timeline, and just go back to see all the files in the state at that time.
+If the files were separate, you'd have to look up each file separately. It takes more time, and you'll need to remember what was changed and what wasn't. Better for unrelated documents, perhaps.
+
+5 - How can you use the commands git log and git diff to view the history of files?
+
+Git log lets you see when changes were made.
+Git diff lets you see what the changes were.
+
+6 - 
+How might using version control make you more confident to make changes that could break something?
+
+If you can create and overwrite with impunity, there's no worry about breaking stuff - there will always be a backup. You just have to make sure you commit it before you play about with it.
+
+7 - 
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use it to work on my projects and be able to keep backups. It would be handy for my accountability project, instead of having separate files for each major revision/version
