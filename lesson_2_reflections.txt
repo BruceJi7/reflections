@@ -21,3 +21,9 @@ What are some situations when branches would be helpful in keeping your history 
 
 Branches are good for trying out new features, or for developing slightly different versions of the program.
 Doing it in one branch could be possible, but if changes need to be made to the regular version, it would get complicated. Since branches can be merged, there's no issue with having separate branches and then merging them when needed.
+
+5 -
+How do the diagrams help you visualize the branch structure?
+
+Quite well. They offer a clear way to see where branches were made, and it's easy to see how the commits made in separate branches may occur around the same time, but are not connected to each other.
+Doing this without a visualisation would be possible, but time consuming - lots of looking at numbers.
