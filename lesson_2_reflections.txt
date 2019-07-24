@@ -27,3 +27,8 @@ How do the diagrams help you visualize the branch structure?
 
 Quite well. They offer a clear way to see where branches were made, and it's easy to see how the commits made in separate branches may occur around the same time, but are not connected to each other.
 Doing this without a visualisation would be possible, but time consuming - lots of looking at numbers.
+
+6 - 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together combines the files in a way that gives you features from both branches. The diagram shows that the branches were seperate and now come together, which is handy because you can then see which commits are from what branch in a way that just git log doesn't show.
