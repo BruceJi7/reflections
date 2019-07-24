@@ -32,3 +32,9 @@ Doing this without a visualisation would be possible, but time consuming - lots 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merging two branches together combines the files in a way that gives you features from both branches. The diagram shows that the branches were seperate and now come together, which is handy because you can then see which commits are from what branch in a way that just git log doesn't show.
+
+7 - 
+What are the pros and cons of Git¡¯s automatic merging vs. always doing merges manually?
+
+It's better to have an automatic merging becuase it saves you having to try and squash two codes together.
+It's nice that git has its conflict system because it draws attention directly to what needs to be addressed.
